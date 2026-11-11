@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="GymLog: integritetspolicy och support. Privacy policy and support.">
+<title>GymLog integritet och support</title>
+<style>
+/* Layout: single readable column, quiet like the app itself */
+:root{
+  --bg:#FAF9F7; --surface:#FFFFFF; --ink:#141416; --muted:#77736F; --rule:#E7E3DE; --accent:#D14A52;
+  --sans:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#121214;--surface:#1B1B1E;--ink:#F2F0ED;--muted:#A19C97;--rule:#2C2B2E;--accent:#E06A71;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121214;--surface:#1B1B1E;--ink:#F2F0ED;--muted:#A19C97;--rule:#2C2B2E;--accent:#E06A71;color-scheme:dark}
+html{margin:0}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+.brand{font-size:13px;letter-spacing:.18em;font-weight:700;text-transform:uppercase}
+.brand span{display:block;width:28px;height:3px;border-radius:2px;background:var(--accent);margin-top:8px}
+h1{font-size:34px;line-height:1.15;margin:0;text-wrap:balance;letter-spacing:-.02em}
+h2{font-size:22px;margin:0 0 8px;letter-spacing:-.01em}
+section{display:flex;flex-direction:column;gap:12px;border-top:1px solid var(--rule);padding-top:28px}
+p,li{margin:0;max-width:65ch}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.muted{color:var(--muted);font-size:14px}
+.mail{font-weight:600;user-select:all;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:10px 14px;align-self:flex-start;word-break:break-all}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">GymLog<span></span></div>
+  <h1>Integritet och support</h1>
+
+  <section id="integritet">
+    <h2>Integritetspolicy</h2>
+    <p>GymLog samlar inte in några personuppgifter. Allt du loggar, som vikter, repetitioner, favoriter och historik, sparas bara lokalt på din iPhone.</p>
+    <ul>
+      <li>Inga konton, ingen inloggning.</li>
+      <li>Ingen data skickas till oss eller till tredje part.</li>
+      <li>Ingen spårning, ingen reklam och ingen analys.</li>
+      <li>Appen behöver ingen nätverksanslutning.</li>
+    </ul>
+    <p>Om du raderar appen raderas också all data som appen har sparat. Om du säkerhetskopierar din iPhone till iCloud kan appens data ingå i Apples säkerhetskopia, som hanteras enligt Apples villkor.</p>
+    <p class="muted">Gäller från 10 november 2026.</p>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p>Har du frågor, hittat ett fel eller saknar en övning? Skriv till oss, så svarar vi så snart vi kan.</p>
+    <div class="mail">dedunya97@gmail.com</div>
+    <p class="muted">Ange gärna din iPhone-modell och iOS-version om du rapporterar ett fel.</p>
+  </section>
+
+  <section id="privacy-en">
+    <h2>Privacy policy (English)</h2>
+    <p>GymLog does not collect any personal data. Everything you log is stored only on your iPhone. There are no accounts, no tracking, no ads, no analytics, and nothing is sent to us or any third party. Deleting the app deletes its data. Support: dedunya97@gmail.com</p>
+  </section>
+</main>
+</body>
+</html>
